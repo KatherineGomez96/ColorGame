@@ -20,6 +20,8 @@ Este es un juego interactivo en el que debes adivinar el color correspondiente a
 ## Autor:
 - Katherine Gómez
 
+## Link: https://glittering-cocada-160b42.netlify.app/
+
 ## Clona este repositorio:
 Para descargar y ejecutar este proyecto en tu máquina local, usa el siguiente comando:
 
