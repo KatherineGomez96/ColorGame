@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Link de los estilos-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--UTILICE EMOJIS PARA HACERLO MAS ATRACTIVO-->
+
+        <h1 id="h1"> <!--cambie el nombre al juego-->
+            &#11088;COLOR GAME&#11088;
+             <br>
+             <span id="colorDisplay">rgb ()</span>
+             <br>¿Qué color es?
+        </h1>
+
+        <div id="stripe">
+            <button id="helpButton">&#128161;</button><!-- hice un boton de Ayuda con un breve mensaje, tipo hover, que utila un evento -->
+            <div id="helpText" style="display: none;">
+                En este juego, tu objetivo es adivinar el color que proporciona las coordendas rgb. Una de las estrellas tendrá el color correcto. ¡Haz clic en una estrella y prueba suerte! Puedes elegir entre dos modos: fácil (3 estrellas) o difícil (6 estrellas).
+            </div>
+            <button id="reset">Nuevos Colores &#127752;</button>
+            <span id="message"></span>
+            <button class="selected" id="hard">DIFÍCIL &#128170;</button>
+            <button id="easy">FÁCIL &#128077;</button>
+        
+        </div>
+
+
+
+        <div class="container" style="margin: 0 auto;"> <!--en realidad, son estrellitas-->
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <script src="colorgame.js"></script>
+        
+    </body>
+
+</html>
